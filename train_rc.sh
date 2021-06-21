@@ -16,6 +16,6 @@ python -u train_BCNpp_model.py \
     --root 'dataset' \
     --colorpath 'color.h5' \
     --illupath 'illu.h5' \
-    --train_ldmk 'train_landmark' \
-    --val_ldmk 'val_landmark' \
+    --train_ldmk 'train_landmark_R50' \
+    --val_ldmk 'val_landmark_R50' \
     --binary_type 'gray'
